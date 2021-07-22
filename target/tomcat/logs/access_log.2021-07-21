@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:07:36 +0530] "GET /player HTTP/1.1" 404 963 http-bio-8080-exec-1 77
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:07:37 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:08:37 +0530] "GET /player HTTP/1.1" 404 963 http-bio-8080-exec-1 46
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:08:43 +0530] "GET /player HTTP/1.1" 404 963 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:08:57 +0530] "GET /player/showPlayerForm HTTP/1.1" 404 993 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:09:09 +0530] "GET /spring/player/showPlayerForm HTTP/1.1" 500 7226 http-bio-8080-exec-5 1681
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:11:48 +0530] "GET /spring/player/showPlayerForm HTTP/1.1" 200 1643 http-bio-8080-exec-1 184
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:21:12:53 +0530] "POST /spring/player/processPlayerForm HTTP/1.1" 200 506 http-bio-8080-exec-4 1106
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:22:34:38 +0530] "POST /spring/player/processPlayerForm HTTP/1.1" 200 498 http-bio-8080-exec-1 283
