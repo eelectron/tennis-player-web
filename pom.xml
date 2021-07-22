@@ -65,6 +65,16 @@
             <contextReloadable>true</contextReloadable>
         </configuration>
       </plugin>
+      
+<!--       If there is an error in the pom.xml file, stating that the failOnMissingWebXml property is set to true, 
+we can include the maven-war-plugin to get rid of the error. 
+https://www.educative.io/courses/guide-spring-5-spring-boot-2/qVl6zK4Yox7
+-->
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.1.0</version>
+</plugin>
     </plugins>
   </pluginManagement>
 </build>

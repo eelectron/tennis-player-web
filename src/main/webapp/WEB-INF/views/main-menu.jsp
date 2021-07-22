@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2> Spring MVC - Tennis Player Database</h2>
-	<a href="showPlayerForm">Search Player</a>
+	<a href="showPlayerForm">Search Player</a> <br>
 	<a href="player/showPlayerForm">Add Player Details</a>
 </body>
 </html>
